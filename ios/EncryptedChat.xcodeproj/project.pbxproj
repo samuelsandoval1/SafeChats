@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A032F8D9F00857FD4812055 /* Pods_EncryptedChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE46C9C1B879CBBF7627BFD0 /* Pods_EncryptedChat.framework */; };
+		F122E2A1243298FC006A1A49 /* VirgilClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F122E2A0243298FC006A1A49 /* VirgilClient.swift */; };
+		F137CC10242D43D0007A5B1C /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F137CC0F242D43D0007A5B1C /* UsersViewController.swift */; };
+		F137CC14242D49CD007A5B1C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F137CC13242D49CD007A5B1C /* LoginViewController.swift */; };
+		F13DAAF22429610A0035CAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13DAAF12429610A0035CAD1 /* AppDelegate.swift */; };
+		F13DAAF42429610A0035CAD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13DAAF32429610A0035CAD1 /* SceneDelegate.swift */; };
+		F13DAAF92429610A0035CAD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13DAAF72429610A0035CAD1 /* Main.storyboard */; };
+		F13DAAFB2429610A0035CAD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F13DAAFA2429610A0035CAD1 /* Assets.xcassets */; };
+		F13DAAFE2429610A0035CAD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F13DAAFC2429610A0035CAD1 /* LaunchScreen.storyboard */; };
+		F17C26F224327DAA001DBE65 /* EncryptedChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C26F124327DAA001DBE65 /* EncryptedChatViewController.swift */; };
+		F192224D24575C8D0075A072 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = F192224C24575C8D0075A072 /* Account.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D10EF1BCE7A238F63B92788 /* Pods-EncryptedChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EncryptedChat.release.xcconfig"; path = "Target Support Files/Pods-EncryptedChat/Pods-EncryptedChat.release.xcconfig"; sourceTree = "<group>"; };
+		8BE4E931671EFF826862838D /* Pods-EncryptedChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EncryptedChat.debug.xcconfig"; path = "Target Support Files/Pods-EncryptedChat/Pods-EncryptedChat.debug.xcconfig"; sourceTree = "<group>"; };
+		CE46C9C1B879CBBF7627BFD0 /* Pods_EncryptedChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EncryptedChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F122E2A0243298FC006A1A49 /* VirgilClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirgilClient.swift; sourceTree = "<group>"; };
+		F137CC0F242D43D0007A5B1C /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		F137CC13242D49CD007A5B1C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F13DAAEE2429610A0035CAD1 /* EncryptedChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncryptedChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F13DAAF12429610A0035CAD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F13DAAF32429610A0035CAD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F13DAAF82429610A0035CAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F13DAAFA2429610A0035CAD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F13DAAFD2429610A0035CAD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F13DAAFF2429610A0035CAD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F17C26F124327DAA001DBE65 /* EncryptedChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncryptedChatViewController.swift; sourceTree = "<group>"; };
+		F192224C24575C8D0075A072 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F13DAAEB2429610A0035CAD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A032F8D9F00857FD4812055 /* Pods_EncryptedChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F5E8A0D87D2BD454A4BA590 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BE4E931671EFF826862838D /* Pods-EncryptedChat.debug.xcconfig */,
+				1D10EF1BCE7A238F63B92788 /* Pods-EncryptedChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		90B63AFBEDBA6E2FAFFDDFE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE46C9C1B879CBBF7627BFD0 /* Pods_EncryptedChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F13DAAE52429610A0035CAD1 = {
+			isa = PBXGroup;
+			children = (
+				F13DAAF02429610A0035CAD1 /* EncryptedChat */,
+				F13DAAEF2429610A0035CAD1 /* Products */,
+				3F5E8A0D87D2BD454A4BA590 /* Pods */,
+				90B63AFBEDBA6E2FAFFDDFE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F13DAAEF2429610A0035CAD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13DAAEE2429610A0035CAD1 /* EncryptedChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F13DAAF02429610A0035CAD1 /* EncryptedChat */ = {
+			isa = PBXGroup;
+			children = (
+				F13DAAF12429610A0035CAD1 /* AppDelegate.swift */,
+				F13DAAF32429610A0035CAD1 /* SceneDelegate.swift */,
+				F137CC0F242D43D0007A5B1C /* UsersViewController.swift */,
+				F137CC13242D49CD007A5B1C /* LoginViewController.swift */,
+				F17C26F124327DAA001DBE65 /* EncryptedChatViewController.swift */,
+				F192224C24575C8D0075A072 /* Account.swift */,
+				F122E2A0243298FC006A1A49 /* VirgilClient.swift */,
+				F13DAAF72429610A0035CAD1 /* Main.storyboard */,
+				F13DAAFA2429610A0035CAD1 /* Assets.xcassets */,
+				F13DAAFC2429610A0035CAD1 /* LaunchScreen.storyboard */,
+				F13DAAFF2429610A0035CAD1 /* Info.plist */,
+			);
+			path = EncryptedChat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F13DAAED2429610A0035CAD1 /* EncryptedChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F13DAB022429610A0035CAD1 /* Build configuration list for PBXNativeTarget "EncryptedChat" */;
+			buildPhases = (
+				2E20A2B950BE74F402BA6315 /* [CP] Check Pods Manifest.lock */,
+				F13DAAEA2429610A0035CAD1 /* Sources */,
+				F13DAAEB2429610A0035CAD1 /* Frameworks */,
+				F13DAAEC2429610A0035CAD1 /* Resources */,
+				773A0E86116729251147FF5C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EncryptedChat;
+			productName = EncryptedChat;
+			productReference = F13DAAEE2429610A0035CAD1 /* EncryptedChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F13DAAE62429610A0035CAD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Stream.io Inc";
+				TargetAttributes = {
+					F13DAAED2429610A0035CAD1 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F13DAAE92429610A0035CAD1 /* Build configuration list for PBXProject "EncryptedChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F13DAAE52429610A0035CAD1;
+			productRefGroup = F13DAAEF2429610A0035CAD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F13DAAED2429610A0035CAD1 /* EncryptedChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F13DAAEC2429610A0035CAD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F13DAAFE2429610A0035CAD1 /* LaunchScreen.storyboard in Resources */,
+				F13DAAFB2429610A0035CAD1 /* Assets.xcassets in Resources */,
+				F13DAAF92429610A0035CAD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E20A2B950BE74F402BA6315 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EncryptedChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		773A0E86116729251147FF5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EncryptedChat/Pods-EncryptedChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EncryptedChat/Pods-EncryptedChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EncryptedChat/Pods-EncryptedChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F13DAAEA2429610A0035CAD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F192224D24575C8D0075A072 /* Account.swift in Sources */,
+				F137CC14242D49CD007A5B1C /* LoginViewController.swift in Sources */,
+				F122E2A1243298FC006A1A49 /* VirgilClient.swift in Sources */,
+				F13DAAF22429610A0035CAD1 /* AppDelegate.swift in Sources */,
+				F137CC10242D43D0007A5B1C /* UsersViewController.swift in Sources */,
+				F17C26F224327DAA001DBE65 /* EncryptedChatViewController.swift in Sources */,
+				F13DAAF42429610A0035CAD1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F13DAAF72429610A0035CAD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13DAAF82429610A0035CAD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F13DAAFC2429610A0035CAD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F13DAAFD2429610A0035CAD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F13DAB002429610A0035CAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F13DAB012429610A0035CAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F13DAB032429610A0035CAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE4E931671EFF826862838D /* Pods-EncryptedChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EncryptedChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.getstream.EncryptedChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F13DAB042429610A0035CAD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D10EF1BCE7A238F63B92788 /* Pods-EncryptedChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EncryptedChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.getstream.EncryptedChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F13DAAE92429610A0035CAD1 /* Build configuration list for PBXProject "EncryptedChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13DAB002429610A0035CAD1 /* Debug */,
+				F13DAB012429610A0035CAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F13DAB022429610A0035CAD1 /* Build configuration list for PBXNativeTarget "EncryptedChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F13DAB032429610A0035CAD1 /* Debug */,
+				F13DAB042429610A0035CAD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F13DAAE62429610A0035CAD1 /* Project object */;
+}
